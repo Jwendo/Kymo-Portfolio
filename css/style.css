@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script|Open+Sans+Condensed:300');
+:root{
+	--primary-color: #d7a100 ;
+	--text-color: #ffff;
+	--font-harding: 'Kaushan Script', cursive;
+	--font-p: 'Open Sans Condensed', sans-serif;
+	--about-text: 'Open Sans Condensed', sans-serif;
+	--aboutSection-color: #3cc1d6;
+	--productionSection-color: #cac6e2;
+	--achievmentSection-color: #96949f;
+	--otherAchievment-color: #5d5d5d;
+};
+/*Global Css*/
+section{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	height: auto;
+}
+p{
+	font-size: 15px;
+}
+strong{
+	color: #ec008e;
+}
+nav{
+	margin-bottom: -24px !important;
+}
+nav ul li a{
+	color: white !important;
+}
+nav ul li a:hover{
+	display: block !important;
+    color: var(--primary-color) !important;
+}
+/*Main Banner*/
+.main-banner{
+	background-image: url(../images/main.banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	position: relative;
+	
+	
+}
+.main-banner::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #d7a100;
+	opacity: 0.3;
+}
+.main-banner h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 10vh;
+}
+.main-banner p{
+	color: var(--text-color);
+	font-family: var(--font-p);
+	font-size: 8vh;
+	font-weight: bold;
+}
+
+/*About-Us*/
+.about-us{
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	background-color: var(--aboutSection-color);
+	height: auto;
+}
+.about-us h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.about-us hr{
+	width: 15%;
+	height: 10px;
+	border-top: 4px solid var(--primary-color);
+	border-radius: 3px;
+}
+.about-us p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+
+}
+
+/*production*/
+.production{
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	background-color: var(--productionSection-color);
+	height: auto;
+}
+.production h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.production hr{
+	width: 15%;
+	height: 10px;
+	border-top: 4px solid var(--primary-color);
+	border-radius: 3px;
+}
+.production p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+}
+
+/*My music*/
+.my-music{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: auto;
+	background-image: url(../images/achievment-3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	position: relative;
+	z-index: 2;
+}
+my-music::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+}
+.my-music h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.my-music hr{
+	width: 15%;
+	height: 10px;
+	border-top: 4px solid var(--primary-color);
+	border-radius: 3px;
+}
+.my-music p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+	font-weight: bold;
+	color: var(--text-color);
+}
+.my-music a{
+	color: blue;
+	font-size: 4vh;
+	text-decoration: none !important;
+}
+
+/*Achievment*/
+.achievment{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: auto;
+	background-color: var(--achievmentSection-color);
+}
+.achievment h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.achievment hr{
+	width: 15%;
+	height: 10px;
+	border-top: 4px solid var(--primary-color);
+	border-radius: 3px;
+}
+.achievment p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+	
+}
+.other-achievment{
+	background-color: var(--otherAchievment-color);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: auto;
+	position: relative;
+
+}
+.other-achievment h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.other-achievment p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+	color: var(--text-color);
+	
+}
+
+/*Performance*/
+.performance{
+	background-image: url(../images/performance.jpg);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: auto;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.performance h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.performance ul li{
+	font-family: var(--about-text);
+	font-size: 4vh;
+	color: var(--text-color);
+}
+
+/*Ambassador*/
+.ambassador{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	height: auto;
+	background-color: var(--otherAchievment-color);
+}
+.ambassador h2{
+	color: var(--text-color);
+	font-family: var(--font-harding);
+	font-size: 8vh;
+}
+.ambassador p{
+	font-family: var(--about-text);
+	font-size: 4vh;
+	color: var(--text-color);
+	
+}
+.ambassador hr{
+	width: 15%;
+	height: 10px;
+	border-top: 4px solid var(--primary-color);
+	border-radius: 3px;
+}
+
+/*Rate Card*/
+.rate-card{
+	background-color: var(--aboutSection-color);
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	height: auto;
+}
+.table td, .table th {
+	border: none !important;
+}
+.rate-card .contact-list li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 18px;
+}
+
+/*Footer*/
+footer p{
+	color: var(--text-color);
+}
+
+/*Scroll on top*/
+ #myBtn {
+  display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+button i{
+	font-size: 25px;
+}
